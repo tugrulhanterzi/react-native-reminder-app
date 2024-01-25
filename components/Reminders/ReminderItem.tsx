@@ -61,13 +61,13 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
   },
   reminderComplete: {
-    backgroundColor: GlobalStyles.colors.purple50,
+    backgroundColor: GlobalStyles.colors.color1,
   },
   textContainer: {
     flex: 3,
   },
   textBase: {
-    color: GlobalStyles.colors.purple500,
+    color: GlobalStyles.colors.color5,
   },
   textComplete: {
     textDecorationLine: "line-through",

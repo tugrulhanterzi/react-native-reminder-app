@@ -103,7 +103,7 @@ const ReminderForm = ({
           <Button
             title={complete ? "Kapat" : "İptal"}
             onPress={() => onCancel()}
-            color={GlobalStyles.colors.purple300}
+            color={GlobalStyles.colors.color4}
           />
         </View>
         {!complete && (
@@ -112,7 +112,7 @@ const ReminderForm = ({
               title="Kaydet"
               onPress={() => onSubmit({ title, description, date })}
               disabled={!validate(title, date)}
-              color={GlobalStyles.colors.purple300}
+              color={GlobalStyles.colors.color4}
             ></Button>
           </View>
         )}
@@ -123,7 +123,7 @@ const ReminderForm = ({
             <Button
               title="Yapıldı olarak işaretle"
               onPress={() => onComplete()}
-              color={GlobalStyles.colors.purple300}
+              color={GlobalStyles.colors.color4}
             />
           </View>
         </View>

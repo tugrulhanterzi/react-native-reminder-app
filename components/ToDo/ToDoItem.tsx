@@ -51,7 +51,7 @@ function ToDoItem({
       <Pressable onPress={toggleTodoComplete} style={styles.checkboxContainer}>
         <MaterialCommunityIcons
           name={complete ? "checkbox-marked" : "checkbox-blank-outline"}
-          color={GlobalStyles.colors.purple500}
+          color={GlobalStyles.colors.color500}
           size={24}
         />
       </Pressable>
@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   reminderComplete: {
-    backgroundColor: GlobalStyles.colors.purple50,
+    backgroundColor: GlobalStyles.colors.color1,
   },
   checkboxContainer: {
     flex: 1,

@@ -45,14 +45,14 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   input: {
-    backgroundColor: GlobalStyles.colors.purple50,
-    color: GlobalStyles.colors.purple700,
+    backgroundColor: GlobalStyles.colors.color1,
+    color: GlobalStyles.colors.color700,
     padding: 6,
     borderRadius: 6,
     fontSize: 18,
   },
   inputDisabled: {
-    color: GlobalStyles.colors.purple200,
+    color: GlobalStyles.colors.color3,
   },
   inputMultiline: {
     minHeight: 100,

@@ -1,11 +1,11 @@
 export const GlobalStyles = {
   colors: {
-    purple50: "#d6dcec",
-    purple100: "#aebede",
-    purple200: "#8893a9",
-    purple300: "#6272A4",
-    purple500: "#44475A",
-    purple700: "#282A36",
+    color1: "#F1D6AB",
+    color2: "#CCC8AA",
+    color3: "#5B9A8B",
+    color4: "#E3B04B",
+    color5: "#000000",
+    color700: "#2B2B28",
     gray: "#888",
     error: "#FF5555",
     blue100: "#8BE9FD",

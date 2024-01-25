@@ -28,7 +28,7 @@ const RemindersOverview = () => {
     <Stack.Navigator
       screenOptions={{
         headerStyle: {
-          backgroundColor: GlobalStyles.colors.purple700,
+          backgroundColor: GlobalStyles.colors.color700,
         },
         headerTintColor: "white",
       }}
@@ -91,10 +91,10 @@ export default function App() {
         <BottomTabs.Navigator
           screenOptions={{
             tabBarStyle: {
-              backgroundColor: GlobalStyles.colors.purple700,
+              backgroundColor: GlobalStyles.colors.color700,
             },
             tabBarActiveTintColor: "green",
-            tabBarInactiveTintColor: GlobalStyles.colors.purple100,
+            tabBarInactiveTintColor: GlobalStyles.colors.color2,
           }}
         >
           <BottomTabs.Screen
@@ -117,7 +117,7 @@ export default function App() {
             component={TodoList}
             options={{
               headerStyle: {
-                backgroundColor: GlobalStyles.colors.purple700,
+                backgroundColor: GlobalStyles.colors.color700,
               },
               headerTintColor: "white",
               title: "ToDo",

@@ -29,8 +29,8 @@ const HandleNotifications = () => {
 
       if (finalStatus !== "granted") {
         Alert.alert(
-          "Permission required",
-          "Local notifications are required in order to be alerted when reminders are due."
+          "İzin gerekli",
+          "Hatırlatıcıların zamanı geldiğinde uyarılmak için yerel bildirimler gereklidir."
         );
         return;
       }
